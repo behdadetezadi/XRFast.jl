@@ -202,7 +202,7 @@ end
 
 function full_nn_dictionary_learning(D::AbstractMatrix, L::AbstractMatrix; 
         noIt_Sub::Int = default_It_Sub, 
-        noIt_KSVD::Int = = 1,
+        noIt_KSVD::Int = 1,
         Lambda::Float64= default_Th)
     
     default_It_Sub = 10
